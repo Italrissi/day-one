@@ -67,8 +67,8 @@ body {
   }
   nav p:hover,
   main ul li:hover {
-    background-color: red;
-    color: slategray
+    background-color: white;
+    color: white
   }
   
   h1 {
