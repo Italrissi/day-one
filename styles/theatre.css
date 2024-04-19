@@ -67,7 +67,7 @@ body {
   }
   nav p:hover,
   main ul li:hover {
-    background-color: wheat;
+    background-color: red;
     color: slategray
   }
   
