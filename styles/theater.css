@@ -68,7 +68,7 @@ body {
   nav p:hover,
   main ul li:hover {
     background-color: white;
-    color: blue
+    color: slategrey;
   }
   
   h1 {
