@@ -98,9 +98,9 @@ section {
 }
 
 .hero {
-    background-image: url(../images/bruce-lee.jpg);
+    background-image: none;
     border-top-right-radius: 2em;
-    /* border: solid black 2em; */
+    border: solid black 2em;
 }
 
 .hero p {
