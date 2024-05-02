@@ -1,16 +1,20 @@
 body,main,article,section,header,footer {
-    margin: 0;
-    padding: O;
+    margin:0;
+    padding:O;
     box-sizing: border-box;
 }
 
+.pure-u-1-5 {
+    width: 25%;
+}
+
 nav a {
-    flex-grow: 1;
+    flex-grow:1;
     text-align: center;
     color: white;
     text-decoration: none;
     border: white 2px solid;
-    padding: 5px;
+    padding:5px;
 }
 
 nav a:hover {
@@ -19,10 +23,30 @@ nav a:hover {
 }
 
 body {
-    padding: 100px;
-    font-size: 16px;
+    padding:100px;
+    font-size:16px;
     background-color: black;
     color: white;
+}
+
+.em {
+    background-image: url(../images/waterfall1.jpeg)
+}
+
+.rem {
+    background-image: url(../images/waterfall2.jpeg)
+}
+
+.percent {
+    background-image: url(../images/waterfall3.jpeg)
+}
+
+.boxing{
+    background-image: url(../images/waterfall4.jpeg))
+}
+
+.vw {
+    background-image: url(../images/waterfall5.jpeg)
 }
 
 
