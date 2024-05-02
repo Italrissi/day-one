@@ -1,3 +1,15 @@
+/* body {
+    margin:0;
+    padding:0;
+    background-color: black;
+    color: white;
+    font-size:16px;
+}
+
+main {
+    width:80%;
+    margin: auto;
+} */
 body,main,article,section,header,footer {
     margin:0;
     padding:O;
@@ -5,13 +17,17 @@ body,main,article,section,header,footer {
 }
 
 .pure-u-1-5 {
-    width: 25%;
+    width: 20%;
+}
+
+section:hover {
+    background-color: black;
 }
 
 nav a {
     flex-grow:1;
     text-align: center;
-    color: white;
+    color: blueviolet;
     text-decoration: none;
     border: white 2px solid;
     padding:5px;
@@ -29,38 +45,64 @@ body {
     color: white;
 }
 
-.em {
-    background-image: url(../images/waterfall1.jpeg)
+section {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5px;
+    /* background-attachment: fixed; */
 }
+
+.em {
+    background-image: url(../images/waterfall1.jpeg);
+    border: solid darkorange 1em;
+    font-size: 1.2em;
+}
+
+/* .em p {
+    font-size: none;
+} */
 
 .rem {
-    background-image: url(../images/waterfall2.jpeg)
+    background-image: url(../images/waterfall2.jpeg);
+    border: dotted darkred .5rem;
 }
+
+/* .rem p {
+    font-size: none;
+} */
 
 .percent {
-    background-image: url(../images/waterfall3.jpeg)
+    background-image: url(../images/waterfall3.jpeg);
 }
 
-.boxing{
-    background-image: url(../images/waterfall4.jpeg))
+.percent p {
+    width: 75%;
+}
+
+.boxing {
+    background-image: url(../images/waterfall4.jpeg);
+    box-sizing: border-box;
+    border: solid dodgerblue;
 }
 
 .vw {
-    background-image: url(../images/waterfall5.jpeg)
+    background-image: url(../images/waterfall5.jpeg);
+    border: dashed 3vw;
+    font-size: 1vw;
+    box-sizing: border-box;
 }
 
-
-
-
-
-.zoe section {
-    background-repeat: ;
-    background-position: ;
-    background-size: ;
-    background-attachment: ;
+.vw p {
+    font-size: medium;
 }
 
-.em {
-    background-image: ../images/waterfall1;
-  
+.hero {
+    background-image: url(../images/waterfall5.jpeg);
+    border-top-right-radius: 2em;
+    /* border: solid black 2em; */
+}
+
+.hero p {
+    width: 50%;
 }
