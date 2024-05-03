@@ -21,7 +21,7 @@ header {
 }
 
 header h1 {
-    margin-left: 15px;
+    margin-left:15px;
     font-size:30px;
 }
 
@@ -43,8 +43,8 @@ nav li {
 
 nav a {
     padding:9px;
-    display: block;
-    width:100px;
+    display:block;
+    width:300px;
     text-decoration: none;
     color: white;
 }
@@ -58,7 +58,6 @@ footer {
     padding:9px;
     background-color: rgba(68, 165, 181, 0.8);
     clear: both;
-
 }
 
 footer p {
@@ -66,7 +65,7 @@ footer p {
 }
 
 .container {
-    width:960px;
+    width: 100px;
     background-color: rgba(255, 255, 255, 0.7);
     margin:auto;
 }
@@ -78,7 +77,7 @@ footer p {
 }
 
 .sidebar {
-    float:left;
+    float:center;
     width:300px;
     background-color: rgba(255, 255, 255, 0.4);
     color:#4a5bd5;
@@ -90,19 +89,19 @@ footer p {
 }
 
 figure {
-    margin: 0px;
+    margin:0px;
 }
 
 figcaption {
-    font-size: 10px;
+    font-size:10px;
 }
 
 .image-right {
-    float: right;
+    float:right;
 }
 
 .image-left {
-    float: left;
+    float:left;
 }
 
 h1,h2,h3 {
@@ -110,5 +109,5 @@ h1,h2,h3 {
 }
 
 p,li {
-  font-family: "Roboto Slab", serif;
+  font-family: "Roboto Slab",serif;
 }
