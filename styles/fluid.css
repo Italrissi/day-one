@@ -97,12 +97,12 @@ section {
     font-size: medium;
 }
 
-/* .hero {
+.hero {
     background-image: url(../images/bruce-lee.jpg);
     background-position: right;
     background-size: cover;
     border: solid black 2em;
-} */
+}
 
 .hero p {
     width: 25%;
