@@ -12,7 +12,7 @@
 } */
 
 body,main,article,section,header,footer {
-    margin:0;
+    margin:5%;
     padding:4px;
     box-sizing: border-box;
 }
