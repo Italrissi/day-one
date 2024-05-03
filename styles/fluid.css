@@ -102,7 +102,7 @@ section {
     border-top-right-radius: 1em;
     /background-position: right;
     background-size: cover; */
-    /* border: solid black 2em; */
+    border: solid black 2em;
 }
 
 .hero p {
