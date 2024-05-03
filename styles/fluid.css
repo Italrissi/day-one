@@ -68,9 +68,9 @@ section {
     border: dotted darkred .5rem;
 }
 
-/* .rem p {
+.rem p {
     font-size: none;
-} */
+}
 
 .percent {
     background-image: url(../images/waterfall3.jpeg);
