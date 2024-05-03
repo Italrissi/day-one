@@ -12,7 +12,7 @@
 } */
 
 body,main,article,section,header,footer {
-    margin:5%;
+    margin:0;
     padding:4px;
     box-sizing: border-box;
 }
@@ -50,7 +50,7 @@ section {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 5px;
+    padding:5px;
     background-attachment: fixed;
 }
 
@@ -61,7 +61,7 @@ section {
 }
 
 .em p {
-    font-size: none;
+    font-size:none;
 }
 
 .rem {
@@ -78,7 +78,7 @@ section {
 }
 
 .percent p {
-    width: 75%;
+    width:75%;
 }
 
 .boxing {
@@ -100,12 +100,12 @@ section {
 
 .hero {
     background-image: url(../images/bruce-lee.jpg);
-    border: solid black 2em;
+    
     /* border-top-right-radius: 1em; */
     background-position: right;
     background-size: cover;
 }
 
 .hero p {
-    width: 25%;
+    width:25%;
 }
