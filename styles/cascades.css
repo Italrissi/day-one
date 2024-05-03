@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body {
-    background-image: url(../images/cascade_mountains-bg.jpg);
+    background-image: url(../images/cas_background2.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -11,9 +11,9 @@ body {
     color: #344e5f;
 }
 
-header, section, aside, article, footer, figure {
+/* header, section, aside, article, footer, figure {
     display: block;
-}
+} */
 
 header {
     background-color: lightblue;
