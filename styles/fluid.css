@@ -99,7 +99,7 @@ section {
 }
 
 .hero {
-    /* background-image: url(../images/bruce-lee.jpg); */
+    background-image: url(../images/bruce-lee.jpg);
     border-top-right-radius: 1em;
     background-position: right;
     background-size: cover;
