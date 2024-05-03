@@ -1,4 +1,4 @@
-/* body {
+body {
     margin:0;
     padding:0;
     background-color: black;
@@ -9,7 +9,7 @@
 main {
     width:80%;
     margin: auto;
-} */
+}
 body,main,article,section,header,footer {
     margin:0;
     padding:O;
@@ -50,7 +50,7 @@ section {
     background-size: cover;
     background-repeat: no-repeat;
     padding: 5px;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
 }
 
 .em {
@@ -59,9 +59,9 @@ section {
     font-size: 1.2em;
 }
 
-/* .em p {
+.em p {
     font-size: none;
-} */
+}
 
 .rem {
     background-image: url(../images/waterfall2.jpeg);
