@@ -11,11 +11,11 @@ main {
     margin: auto;
 }
 
-body,main,article,section,header,footer {
+/* body,main,article,section,header,footer {
     margin:0;
     padding:O;
     box-sizing: border-box;
-}
+} */
 
 .pure-u-1-5 {
     width: 20%;
