@@ -1,8 +1,9 @@
 :root {
-    --blue: #114670
-    --green: #074817;
+    --blue:#11467D;
+    --green:#4C7335;
     --white: #ffffff;
     font-family: "Roboto", sans-serif;
+    color:var(--blue);
 }
 
 body, header, main, footer, section, article, aside {
@@ -12,10 +13,10 @@ body, header, main, footer, section, article, aside {
     font-size: 16px;
 }
 
-main, header, nav ul {
+main, header, nav ul, footer {
     display: grid;
-    grid-template-columns: auto auto auto;
-    background-color: gray;
+    grid-template-columns: 33% 33% 33%;
+    /* background-color: gray; */
 }
 
 main section {
@@ -24,6 +25,7 @@ main section {
     padding: 20px;
 }
 
+/* the following classes will govern the sections and make them work within the grid  */
 .item1, .item8 {
     grid-column-start: 1;
     grid-column-end: 3;
@@ -32,23 +34,23 @@ main section {
 .item6 {
     grid-column-start: 1;
     grid-column-end: 2;
-    width: 30%;
+    /* width: 30%; */
 }
 
 .pic6, .pic4, .pic2 {
-    background-image: url(../images/sj-059.jpg);
+    background-image: url(../images/sj-011.jpg)
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
 }
 
-.pic4 {
-    background-image: url(../images/sj-031.jpg);
+.pic2 {
+    background-image: url(../images/sj-039.jpg);
 }
 
-.pic2 {
-    background-image: url(../images/sj-026.jpg);
+.pic4 {
+    background-image: url(../images/sj-031.jpg);
 }
 
 .item7 {
@@ -56,20 +58,27 @@ main section {
     grid-column-end: 4;
 }
 
-.item8, .item9, .item10, .hero-orcas {
+.hero-orcas {
     grid-column-start: 1;
     grid-column-end: 4;
 }
 
 header {
-    background-color: var(white);
+    background-color: var(--white);
     text-align: center;
 }
 
-header a, header p, nav a {
-    color: lightgrey;
-    text-decoration: none;
+.logo1 {
+    height: 100px;
+    width: auto;
+    margin: 10px auto;
 }
+
+header a, header p, nav a, label {
+    color: var(--blue);
+    /* text-decoration: none; */
+}
+
 
 .hero-orcas, main section {
     background-image: url(../images/sj-029.jpg);
@@ -77,6 +86,11 @@ header a, header p, nav a {
     background-size: cover;
     background-repeat: no-repeat;
     height: 200px;
+}
+
+.item8, .item10, .hero-orcas {
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
 
 h1 {
@@ -92,11 +106,11 @@ nav {
 nav ul li {
     list-style-type: none;
     text-align: center;
-    height: 200px;
+    height: 100px;
 }
 
 nav ul li:hover {
-    background-color: lightgray;
+    background-color:var(--green);
     color:var( white)
 }
 
@@ -117,9 +131,13 @@ main section {
 }
 
 .item7 {
-    background-image: url(../images/sj-019.jpg)
+    background-image: url(../images/sj-022.jpg)
 }
 
 .item2, .item4, .item6 {
     background-image: none;
 }
+
+footer [
+    padding: 5px;
+]
