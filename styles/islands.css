@@ -1,4 +1,5 @@
 :root {
+    --blue: #114670
     --green: #074817;
     --white: #ffffff;
     font-family: "Roboto", sans-serif;
@@ -18,12 +19,12 @@ main, header, nav ul {
 }
 
 main section {
-    border: solid gray 1px;
+    border: solid white 1px;
     text-align: center;
     padding: 20px;
 }
 
-.item1 {
+.item1, .item8 {
     grid-column-start: 1;
     grid-column-end: 3;
 }
@@ -39,7 +40,7 @@ main section {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100px;
+    height: 200px;
 }
 
 .pic4 {
