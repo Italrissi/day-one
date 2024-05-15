@@ -38,7 +38,7 @@ main section {
 }
 
 .pic6, .pic4, .pic2 {
-    background-image: url(../images/sj-011.jpg)
+    background-image: url(../images/sj-031.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -54,7 +54,7 @@ main section {
 }
 
 .item7 {
-    grid-column-start: 3;
+    grid-column-start: 2;
     grid-column-end: 4;
 }
 
