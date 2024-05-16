@@ -38,3 +38,25 @@ main {
 .pic4 {
     background-image: url(../images/sj-026.jpg);
 }
+
+.item3 {
+    grid-area: sidebar;
+    height: 100%;
+}
+
+.item4 {
+    grid-area: middle;
+}
+
+.item5 {
+    grid-area: last;
+}
+
+.item6 {
+    grid-area: bottom;
+}
+
+.item {
+    grid-area: bottom2;
+}
+
