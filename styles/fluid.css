@@ -55,7 +55,7 @@ section {
 }
 
 .em {
-    background-image: url(../images/waterfall1.jpeg);
+    background-image: url(../images/waterfall1.jpg);
     border: solid darkorange 1em;
     font-size: 1.2em;
 }
@@ -65,7 +65,7 @@ section {
 }
 
 .rem {
-    background-image: url(../images/waterfall2.jpeg);
+    background-image: url();
     border: dotted darkred .5rem;
 }
 
@@ -74,7 +74,7 @@ section {
 }
 
 .percent {
-    background-image: url(../images/waterfall3.jpeg);
+    background-image: url(../images/waterfall2.jpg);
 }
 
 .percent p {
@@ -82,13 +82,13 @@ section {
 }
 
 .boxing {
-    background-image: url(../images/waterfall4.jpeg);
+    background-image: url(../images/waterfall3.jpg);
     box-sizing: border-box;
     border: solid dodgerblue;
 }
 
 .vw {
-    background-image: url(../images/waterfall5.jpeg);
+    background-image: url(../images/waterfall4.jpg);
     border: dashed 3vw;
     font-size: 1vw;
     box-sizing: border-box;
