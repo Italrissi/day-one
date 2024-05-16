@@ -99,11 +99,11 @@ section {
 }
 
 .hero {
-    background-image: url(../images/bruce-lee.jpg);
+    background-image: url(../images/waterfall1.jpeg);
     border-top-right-radius: 2em;
-    /* border: solid black 2px; */
+    border: solid black 2px;
 }
 
 .hero p {
-    width: 90%;
+    width: 50%;
 }
