@@ -6,15 +6,6 @@
     color:var(--blue);
 }
 
-.grid-container {
-    display: grid;
-}
-
-.sidebar-layout {
-    display: grid;
-    grid-template-columns: 300px 1fr;
-}
-
 body, header, main, footer, section, article, aside {
     margin: 0px;
     padding: 0px;
@@ -35,7 +26,7 @@ main section {
 }
 
 /* the following classes will govern the sections and make them work within the grid  */
-.item1, .item8 {
+.item1 {
     grid-column-start: 1;
     grid-column-end: 3;
 }
@@ -67,7 +58,7 @@ main section {
     grid-column-end: 4;
 }
 
-.hero-orcas {
+.item8, .item10, .hero-orcas {
     grid-column-start: 1;
     grid-column-end: 4;
 }
