@@ -58,7 +58,7 @@ main section {
     grid-column-end: 4;
 }
 
-.item8, .item10, .hero-orcas {
+.item8, .item10, .hero-orcas{
     grid-column-start: 1;
     grid-column-end: 4;
 }
@@ -86,11 +86,6 @@ header a, header p, nav a, label {
     background-size: cover;
     background-repeat: no-repeat;
     height: 200px;
-}
-
-.item8, .item10, .hero-orcas {
-    grid-column-start: 1;
-    grid-column-end: 4;
 }
 
 h1 {
