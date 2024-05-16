@@ -6,6 +6,15 @@
     color:var(--blue);
 }
 
+.grid-container {
+    display: grid;
+}
+
+.sidebar-layout {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+
 body, header, main, footer, section, article, aside {
     margin: 0px;
     padding: 0px;
