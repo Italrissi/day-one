@@ -2,7 +2,7 @@
     --blue:#11467D;
     --green:#4C7335;
     --white: #ffffff;
-    font-family: "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     color:var(--blue);
 }
 
@@ -13,7 +13,7 @@ body, header, main, footer, section, article, aside {
     font-size: 16px;
 }
 
-main {
+main, header, nav ul, footer {
     display: grid;
     grid-template-columns: 33% 33% 33%;
     /* background-color: gray; */
@@ -26,7 +26,7 @@ main section {
 }
 
 /* the following classes will govern the sections and make them work within the grid  */
-.item1 {
+.item1, .item8 {
     grid-column-start: 1;
     grid-column-end: 3;
 }
@@ -63,6 +63,8 @@ main section {
     grid-column-end: 4;
 }
 
+/* styling elements */
+
 header {
     background-color: var(--white);
     text-align: center;
@@ -81,7 +83,7 @@ header a, header p, nav a, label {
 
 
 .hero-orcas, main section {
-    background-image: url(../images/sj-029.jpg);
+    background-image: url(../images/sj-039.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -94,7 +96,7 @@ h1 {
     text-shadow: #074817 3px 3px 3px;
 }
 
-nav {
+nav ul {
     background-color: var( white);
 }
 
