@@ -26,6 +26,21 @@ main section {
 }
 
 /* the following classes will govern the sections and make them work within the grid  */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.grid-item {
+background-color: rgba(255, 255, 255, 0.8);
+border: 1px solid rgba(0, 0, 0, 0.8);
+padding: 20px;
+font-size: 30px;
+text-align: center;
+}
+
 .item1, .item8 {
     grid-column-start: 1;
     grid-column-end: 3;
@@ -80,7 +95,6 @@ header a, header p, nav a, label {
     color: var(--blue);
     /* text-decoration: none; */
 }
-
 
 .hero-orcas, main section {
     background-image: url(../images/sj-039.jpg);
