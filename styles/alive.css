@@ -25,6 +25,14 @@ main section {
     padding: 20px;
 }
 
+.hero-orcas, main section {
+    background-image: url(../images/sj-039.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
 /* the following classes will govern the sections and make them work within the grid  */
 
 .item1, .item4, .item8 {
