@@ -1,4 +1,4 @@
-.hero-lopez {
+.hero-lopez, main section {
     grid-column-start: 1;
     grid-column-end: 4;
     background-image: url(../images/sj-041.jpg);
