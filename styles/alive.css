@@ -94,7 +94,7 @@ header a, header p, nav a, label {
     background-image: url(../images/sj-048.jpg);
     background-position: center;
     background-size: cover;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     height: 200px;
 }
 
