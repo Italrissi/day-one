@@ -18,4 +18,11 @@
     .loki img, .leo img {
         width: 90%;
     }
+    main {
+        grid-template-areas: none;
+    }
+
+    .item-1, item-3 {
+        height: 400px;
+    }
 }
