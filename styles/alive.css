@@ -67,7 +67,7 @@ main section {
     grid-column-end: 4;
 }
 
-.item8, .item10, .hero-orcas{
+.item8, .item10, .hero-orcas, .island-text {
     grid-column-start: 1;
     grid-column-end: 4;
 }
