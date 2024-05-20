@@ -13,7 +13,7 @@ main {
     grid-template-areas:
     "first second sidebar"
     "first middle sidebar"
-    "first last sidebar"
+    "first last last"
     "bottom1 bottom1 bottom2"
 }
 
@@ -28,16 +28,20 @@ main {
 }
 
 .pic2 {
-    background-image: url(../images/sj-030.jpg);
-}
-
-.pic4 {
     background-image: url(../images/sj-057.jpg);
 }
 
 .pic4 {
+    background-image: url(../images/sj-030.jpg);
+}
+
+.pic6 {
     background-image: url(../images/sj-026.jpg);
 }
+
+/* .item2 {
+    grid-area: bottom2;
+} */
 
 .item3 {
     grid-area: sidebar;
@@ -55,8 +59,3 @@ main {
 .item6 {
     grid-area: bottom;
 }
-
-.item {
-    grid-area: bottom2;
-}
-
