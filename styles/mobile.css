@@ -22,7 +22,7 @@
         grid-template-areas: none;
     }
 
-    .item-1, item-3 {
+    .item1, item3 {
         height: 400px;
     }
 }
