@@ -33,8 +33,6 @@ main {
 
 .pic2 {
     background-image: url(../images/sj-019.jpg);
-    max-width: 50px;
-    height: fit-content;
 }
 
 .pic6 {
@@ -47,6 +45,7 @@ main {
 
 .item4 {
     grid-area: middle;
+    height: inherit;
 }
 
 .item5 {
