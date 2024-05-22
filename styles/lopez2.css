@@ -25,6 +25,7 @@ main {
 
 .item2 {
     grid-area: second;
+    max-height: 100px;
 }
 
 .pic4 {
