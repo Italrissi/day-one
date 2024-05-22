@@ -20,7 +20,7 @@ main {
 .item1 {
     grid-area: first;
     height: 100%;
-    background-image: url(../images/sj-063.jpg);
+    background-image: url(../images/sj-035.jpg)
 }
 
 .item2 {
@@ -32,11 +32,11 @@ main {
 }
 
 .pic2 {
-    background-image: url(../images/sj-030.jpg);
+    background-image: url(../images/sj-019.jpg);
 }
 
 .pic6 {
-    background-image: url(../images/sj-026.jpg);
+    background-image: url(../images/sj-037.jpg);
 }
 
 .item3 {
