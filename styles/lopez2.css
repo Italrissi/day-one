@@ -40,7 +40,7 @@ main {
 
 .pic2 {
     background-image: url(../images/sj-019.jpg);
-    height: auto;
+    overflow-y: scroll;
 }
 
 .pic6 {
