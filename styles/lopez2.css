@@ -35,17 +35,14 @@ main {
 
 .pic4 {
     background-image: url(../images/sj-057.jpg);
-    height: auto;
 }
 
 .pic2 {
     background-image: url(../images/sj-019.jpg);
-    overflow-y: auto;
 }
 
 .pic6 {
     background-image: url(../images/sj-037.jpg);
-    height: auto;
 }
 
 .item3 {
@@ -54,7 +51,6 @@ main {
 
 .item4 {
     grid-area: middle;
-    height: auto;
 }
 
 .item5 {
