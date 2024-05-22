@@ -6,6 +6,16 @@
     color:var(--blue);
 }
 
+.hero-sanjaun {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-image: url(../images/sj-041.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
 body, header, main, footer, section, article, aside {
     margin:0px;
     padding:0px;
