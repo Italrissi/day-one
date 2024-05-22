@@ -7,22 +7,22 @@
 }
 
 body, header, main, footer, section, article, aside {
-    margin: 0px;
-    padding: 0px;
+    margin:0px;
+    padding:0px;
     box-sizing: border-box;
-    font-size: 16px;
+    font-size:16px;
 }
 
 main, header, nav ul, footer {
     display: grid;
     grid-template-columns: 33% 33% 33%;
-    background-color: gray;
+    /* background-color: gray; */
 }
 
 main section {
     border: solid white 1px;
     text-align: center;
-    padding: 20px;
+    padding:20px;
 }
 
 .hero-orcas, main section {
@@ -30,7 +30,7 @@ main section {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 200px;
+    height:200px;
 }
 
 /* the following classes will govern the sections and make them work within the grid  */
@@ -51,7 +51,7 @@ main section {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 200px;
+    height:200px;
 }
 
 .pic2 {
@@ -80,9 +80,9 @@ header {
 }
 
 .logo1 {
-    height: 100px;
+    height:100px;
     width: auto;
-    margin: 10px auto;
+    margin:10px auto;
 }
 
 header a, header p, nav a, label {
@@ -95,7 +95,7 @@ header a, header p, nav a, label {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 200px;
+    height:200px;
 }
 
 h1 {
@@ -111,7 +111,7 @@ nav ul {
 nav ul li {
     list-style-type: none;
     text-align: center;
-    height: 100px;
+    height:100px;
 }
 
 nav ul li:hover {
@@ -120,7 +120,7 @@ nav ul li:hover {
 }
 
 main section {
-    height: 400px;
+    height:400px;
 }
 
 .item1 {
