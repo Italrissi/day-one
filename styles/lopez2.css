@@ -5,13 +5,10 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100px;
+    height: 200px;
 }
 
 .island-text {
-    grid-column-start: 1;
-    grid-column-end: 4;
-    background-image: url(../images/sj-041.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
