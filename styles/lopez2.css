@@ -9,9 +9,11 @@
 }
 
 .island-text {
+
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100px;
 }
 
 main {
@@ -25,6 +27,7 @@ main {
 
 .item1 {
     grid-area: first;
+    height: 100%;
     background-image: url(../images/sj-035.jpg)
 }
 
@@ -50,6 +53,7 @@ main {
 
 .item4 {
     grid-area: middle;
+    height: inherit;
 }
 
 .item5 {
