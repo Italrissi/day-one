@@ -46,6 +46,7 @@ main {
 
 .item4 {
     grid-area: middle;
+    max-height: fit-content;
 }
 
 .item5 {
