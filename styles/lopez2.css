@@ -25,7 +25,6 @@ main {
 
 .item2 {
     grid-area: second;
-    max-height: 100px;
 }
 
 .pic4 {
@@ -35,6 +34,7 @@ main {
 .pic2 {
     background-image: url(../images/sj-019.jpg);
     max-width: 50px;
+    height: fit-content;
 }
 
 .pic6 {
@@ -43,12 +43,10 @@ main {
 
 .item3 {
     grid-area: sidebar;
-    height: 100px;
 }
 
 .item4 {
     grid-area: middle;
-    max-height: fit-content;
 }
 
 .item5 {
