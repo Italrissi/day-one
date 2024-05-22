@@ -8,6 +8,13 @@
     height: 200px;
 }
 
+body, header, main, footer, section, article, aside {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-size:16px;
+}
+
 main {
     grid-auto-rows: minmax(400px, auto);
     grid-template-areas:
