@@ -8,14 +8,6 @@
     height: 200px;
 }
 
-.island-text {
-
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100px;
-}
-
 main {
     grid-auto-rows: minmax(400px, auto);
     grid-template-areas:
