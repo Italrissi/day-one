@@ -41,7 +41,7 @@ main {
 
 .item3 {
     grid-area: sidebar;
-    height: 100%;
+    height: 100px;
 }
 
 .item4 {
