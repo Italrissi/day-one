@@ -4,7 +4,7 @@
     background-image: url(../images/sj-041.jpg);
     background-position: center;
     background-size: cover;
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     height: 200px;
 }
 
@@ -26,12 +26,12 @@ main {
 
 .item1 {
     grid-area: first;
-    margin: auto;
-    background-image: url(../images/sj-035.jpg)
+    /* background-image: url(../images/sj-035.jpg) */
 }
 
 .item2 {
     grid-area: second;
+    background-image: url(../images/sj-035.jpg)
 }
 
 .pic4 {
@@ -44,7 +44,6 @@ main {
 
 .pic6 {
     background-image: url(../images/sj-002.jpg);
-    margin: auto;
 }
 
 .item3 {
