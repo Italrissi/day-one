@@ -32,7 +32,7 @@ main, header, nav ul, footer {
 main section {
     border: solid white 1px;
     text-align: center;
-    padding:20px;
+    padding: 20px;
 }
 
 .hero-orcas, main section {
