@@ -6,7 +6,7 @@
     color:var(--blue);
 }
 
-.hero-sanjuan {
+/* .hero-sanjuan {
     grid-column-start: 1;
     grid-column-end: 4;
     background-image: url(../images/sj-034.jpg);
@@ -14,7 +14,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 200px;
-}
+} */
 
 body, header, main, footer, section, article, aside {
     margin:0px;
@@ -36,7 +36,7 @@ main section {
 }
 
 .hero-orcas, main section {
-    background-image: url(../images/sj-014.jpg);
+    background-image: url(../images/sj-034.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
