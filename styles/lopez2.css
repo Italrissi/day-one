@@ -26,6 +26,7 @@ main {
 
 .item1 {
     grid-area: first;
+    margin: auto;
     background-image: url(../images/sj-035.jpg)
 }
 
@@ -43,6 +44,7 @@ main {
 
 .pic6 {
     background-image: url(../images/sj-002.jpg);
+    margin: auto;
 }
 
 .item3 {
@@ -51,7 +53,6 @@ main {
 
 .item4 {
     grid-area: middle;
-    height: inherit;
 }
 
 .item5 {
