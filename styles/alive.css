@@ -6,10 +6,10 @@
     color:var(--blue);
 }
 
-.hero-sanjaun {
+.hero-sanjuan {
     grid-column-start: 1;
     grid-column-end: 4;
-    background-image: url(../images/sj-041.jpg);
+    background-image: url(../images/sj-057.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
