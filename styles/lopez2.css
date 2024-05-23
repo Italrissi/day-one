@@ -50,6 +50,7 @@ main {
 
 .item3 {
     grid-area: sidebar;
+    height: 100%;
 }
 
 .item4 {
@@ -62,8 +63,10 @@ main {
 
 .item6 {
     grid-area: bottom1;
+    height: 100%;
 }
 
 .item7 {
     grid-area: bottom2;
+    height: 100%;
 }
