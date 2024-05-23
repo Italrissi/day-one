@@ -9,7 +9,7 @@
 .hero-sanjuan {
     grid-column-start: 1;
     grid-column-end: 4;
-    background-image: url(../images/sj-057.jpg);
+    background-image: url(../images/sj-034.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -134,7 +134,7 @@ main section {
 }
 
 .item1 {
-    background-image: url(../images/waterfall3.jpg);
+    background-image: url();
 }
 
 .item3 {
