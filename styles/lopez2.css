@@ -26,16 +26,18 @@ main {
 
 .item1 {
     grid-area: first;
-    /* background-image: url(../images/sj-035.jpg) */
+    height: 100%;
+    background-image: url(../images/sj-035.jpg)
 }
 
 .item2 {
     grid-area: second;
-    background-image: url(../images/sj-035.jpg)
+    height: 100%;
 }
 
 .pic4 {
     background-image: url(../images/sj-057.jpg);
+    height: 100%;
 }
 
 .pic2 {
