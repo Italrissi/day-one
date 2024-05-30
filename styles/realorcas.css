@@ -35,7 +35,7 @@ main section {
     padding: 20px;
 }
 
-.hero-orcas {
+.hero-orcas, main section {
     background-image: url(../images/sj-034.jpg);
     background-position: center;
     background-size: cover;
@@ -101,7 +101,7 @@ header a, header p, nav a, label {
 }
 
 .hero-orcas {
-    background-image: url(../images/sj-048.jpg);
+    background-image: url(../images/sj-034.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -111,7 +111,7 @@ header a, header p, nav a, label {
 h1 {
     color: var( white);
     text-transform: uppercase;
-    text-shadow: #074817 3px 3px 3px;
+    text-shadow: white 3px 3px 3px;
 }
 
 nav ul {
