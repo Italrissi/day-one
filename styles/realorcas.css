@@ -35,7 +35,7 @@ main section {
     padding: 20px;
 }
 
-.hero-orcas, main section {
+.hero-orcas {
     background-image: url(../images/sj-034.jpg);
     background-position: center;
     background-size: cover;
