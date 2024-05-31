@@ -1,9 +1,19 @@
-/* header {
+header {
     background-color: blueviolet;
+}
+
+/* main {
+    background-color: cadetblue;
 } */
 
+main section {
+    background-color: darkmagenta;
+    border: solid white 8px;
+    box-sizing: border-box;
+}
+
 :root {
-    --blue:#11467D;
+    --cyan:#AEDDDA;
     --green:#4C7335;
     --white: #ffffff;
     font-family: "Roboto", sans-serif;
