@@ -1,10 +1,10 @@
-body {
+/* body {
     margin:0;
     padding:0;
     background-color: black;
     color: white;
     font-size:16px;
-}
+} */
 
 main {
     width:80%;
@@ -35,7 +35,7 @@ section:hover {
 }
 
 nav a {
-    flex-grow:1;
+    flex-grow: 1;
     text-align: center;
     color: blueviolet;
     text-decoration: none;
@@ -79,7 +79,7 @@ section {
 }
 
 .rem p {
-    font-size:none;
+    font-size: none;
 }
 
 .percent {
@@ -87,13 +87,18 @@ section {
 }
 
 .percent p {
-    width: 75%;
+    font-size: none;
+    /* width: 75%; */
 }
 
 .boxing {
     background-image: url(../images/waterfall3.jpg);
     box-sizing: border-box;
     border: solid dodgerblue;
+}
+
+.boxing p {
+    font-size: none;
 }
 
 .vw {
@@ -108,7 +113,7 @@ section {
 }
 
 .hero {
-    background-image: url(../images/waterfall1.jpeg); */
+    background-image: url(../images/waterfall1.jpeg);
     border-top-right-radius: 2em;
     border: solid black 2px;
 }
