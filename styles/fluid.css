@@ -1,15 +1,15 @@
-/* body {
+body {
     margin:0;
     padding:0;
     background-color: black;
     color: white;
     font-size:16px;
-} */
+}
 
-/* main {
+main {
     width:80%;
     margin: auto;
-} */
+}
 
 body,main,article,section,header,footer {
     margin:0;
