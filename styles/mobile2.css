@@ -1,4 +1,5 @@
 @media screen and (max-width: 1080px) {
+
     main, footer, header, nav.alive {
         display: block;
         width: 90%;
@@ -16,6 +17,7 @@
     
 /* below is the media query for fluid dimensions to convert the pure-g to a flew 
 flow columns. */
+
 .pure-g {
     flex-flow: column;
 }
@@ -31,6 +33,6 @@ body.fluid main, .pure-u-1-3, .pure-u-2-3 {
 
 /* stew recipe and history mobile styles */
 
-.stew-content, .stew-content img, body.history img, {
-    width: 95%;
-}
+/* .stew-content, .stew-content img, body.history img, {
+    width: 90%;
+} */
