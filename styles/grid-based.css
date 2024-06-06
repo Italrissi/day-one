@@ -236,15 +236,15 @@ header h1 {
 
 header h2 {
     margin-left:15px;
-    font-size:20px;
+    font: size 12px;
 }
 
-nav ul {
+/* nav ul {
     text-align: center;
     list-style: none;
     background-color: #44a5bd;
     margin-bottom: 15px;
-}
+} */
 
 /* nav li {
     display: inline-block;
@@ -271,10 +271,10 @@ footer {
 }
 
 footer p {
-    font-size:10px;
+    font: size 20px;px;
 }
 
-.container {
+/* .container {
     width:960px;
     background-color: rgba(255,255,255,0.7);
     margin:auto;
@@ -305,7 +305,7 @@ figure {
 
 figcaption {
     font-size:10px;
-}
+} */
 
 .image-right {
     float:right;
