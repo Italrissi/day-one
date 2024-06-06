@@ -18,126 +18,182 @@ ul.illuminations { list-style-position: outside;}
 
 ul.season { list-style-position: inside;}
 
-/* body {
-    margin:0;
-    padding:0;
-    background-color: black;
-    color: white;
-    font-size:16px;
-} */
+/*------------------------------------------------------------
 
-main {
-    width:80%;
-    margin: auto;
-}
+	Style.css
 
-body, main, article, section, header, footer {
-    margin:0;
-    padding:4px;
+	Created by:	Dave Rupert
+	Contact:		http://github.com/davatron5000/foldy960
+
+	Copyright 2012
+	License:	CC No Attribution
+
+--------------------------------------------------------------*/
+
+/* Responsive Resets
+-------------------------------------------------------------- */
+@-o-viewport {
+    width: device-width;
+  }
+  @-ms-viewport {
+    width: device-width;
+  }
+  @viewport {
+    width: device-width;
+  }
+  
+  html {
+    overflow-y: auto;
+  }
+  
+  img,
+  audio,
+  video,
+  canvas {
+    max-width: 100%;
+  }
+  
+  /* Grid > 6 Column Mobile First
+  -------------------------------------------------------------- */
+  .container {
+    /*
+      The `max-width` property is the width governor.
+    */
+      max-width: 1280px;
+      width:92%;
+      margin:0px auto;
+      position: relative;
+  }
+  
+  .row {
+    clear: both;
+  }
+  
+  @media screen and (min-width: 480px) {
+    .container {
+      width: 98%;
+    }
+  
+    .grid-1,
+    .grid-2,
+    .grid-3,
+    .grid-4,
+    .grid-5,
+    .grid-6,
+    .grid-half,
+    .grid-full,
+    .grid-unit {
+      float: left;
+      width:96.969696969697%;
+      margin:0 1.515151515152% 1em;
+    }
+  
+    .gallery .grid-unit,
+    .grid-half {
+      width:46.969696969697%;
+      margin: 0 1.515151515152% 1em;
+    }
+  
+    .grid-flow-opposite{
+      float:right
+    }
+  
+  }
+  
+  @media screen and (min-width: 640px) {
+    .grid-1     { width: 13.636363636364%; }
+    .grid-2     { width: 30.30303030303%; }
+    .grid-3,
+    .grid-half  { width: 46.969696969697%; }
+    .grid-4     { width: 63.636363636364%; }
+    .grid-5     { width: 80.30303030303%; }
+    .grid-6,
+    .grid-full  { width: 96.969696969697%; }
+  
+    .gallery .grid-unit {
+      width: 30.30303030303%;
+    }
+  
+    .content-pad-right {
+      padding-right: 4%; /* Use (or don't) as necessary. */
+    }
+  
+    .content-pad-left {
+      padding-left: 4%;
+    }
+  
+  }
+  
+  /* Micro Clearfix - http://nicolasgallagher.com/micro-clearfix-hack/
+  For best results, use your favorite clearfix here.
+  -------------------------------------------------------------- */
+  .cf:before, .cf:after { content:""; display:table; }
+  .cf:after { clear:both; }
+  .cf { zoom:1; } /* For IE 6/7 (trigger hasLayout) */
+  
+  /* Layout
+  -------------------------------------------------------------- */
+  body {
+    font: 100%/1.5 sans-serif;
+  }
+  
+  section {
+    margin-bottom: 2em;
+  }
+  
+  footer {
+    font-size: 0.9em;
+    border-top: 1px solid #ccc;
+    padding: 0.5em 0 2.5em;
+  }
+  
+  /* Typography
+  -------------------------------------------------------------- */
+  .heading {
+    font-size: 3em;
+    margin: 0;
+  }
+  
+  .sub-heading {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+  
+  a {
+    color: #0066cc;
+  }
+  
+  a:focus,
+  a:hover {
+    color: #003399;
+  }
+  
+  /* Elements
+  -------------------------------------------------------------- */
+  figure {
+    margin: 0;
+    background: #f8f8f8;
+  }
+  
+  figcaption {
+    padding: 0.5em 1em 1em;
+    font-size: 0.875em;
+  }
+  
+  code {
+    padding: 0.5em;
+    background: #efefef;
+  }
+  
+  /* Helpers
+  -------------------------------------------------------------- */
+  .show-grid div[class*='grid-'] {
+    background-color: #eee;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
-}
-
-.pure-u-1-2 {
-    width: 100%;
-}
-
-.pure-u-1-4 {
-    width: 50%;
-}
-
-.pure-u-1-5 {
-    background-position: center;
-    width: 50%;
-}
-
-section:hover {
-    background-color: black;
-}
-
-nav a {
-    flex-grow: 1;
+    display: block;
+    padding: 0.5em 1em;
+    margin-bottom: 1em;
     text-align: center;
-    color: blueviolet;
-    text-decoration: none;
-    border: white 2px solid;
-    padding:5px;
-}
-
-nav a:hover {
-    color: black;
-    background-color: white;
-}
-
-body {
-    padding:100px;
-    font-size:16px;
-    background-color: black;
-    color: white;
-}
-
-section {
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding:5px;
-    background-attachment: fixed;
-}
-
-.em {
-    background-image: url(../images/waterfall1.jpg);
-    border: solid darkorange 1em;
-    font-size: 1.2em;
-}
-
-.em p {
-    font-size:none;
-}
-
-.rem {
-    background-image: url(../images/waterfall5.jpg);
-    border: dotted darkred .5rem;
-}
-
-.rem p {
-    font-size: none;
-}
-
-.percent {
-    background-image: url(../images/waterfall2.jpg);
-}
-
-.percent p {
-    font-size: none;
-    /* width: 75%; */
-}
-
-.boxing {
-    background-image: url(../images/waterfall3.jpg);
-    box-sizing: border-box;
-    border: solid dodgerblue;
-}
-
-.boxing p {
-    font-size: none;
-}
-
-.vw {
-    background-image: url(../images/waterfall4.jpg);
-    border: dashed 3vw;
-    font-size: 1vw;
-    box-sizing: border-box;
-}
-
-.vw p {
-    font-size: medium;
-}
-
-.hero {
-    background-image: url(../images/waterfall1.jpeg);
-    border-top-right-radius: 2em;
-    border: solid black 2px;
-}
-
-.hero p {
-    width: 25%;
-}
+  }
