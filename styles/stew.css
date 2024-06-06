@@ -29,7 +29,6 @@ p {
     color: blue;
 }
 
-
 /* base styles */
 * {
     margin: 0;
@@ -53,8 +52,6 @@ body {
     background-color: rgb(65, 71, 97);
     font-family: sans-serif;
 }
-
-
 
 /* off-screen-menu
 .off-screen-menu {
@@ -121,4 +118,4 @@ body {
 .ham-menu.active span:nth-child(3) {
     top: 50%;
     transform: translate(-50%, -50%) rotate(-45deg);
-} */ */
+} */
