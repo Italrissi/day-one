@@ -85,7 +85,7 @@ ul.season { list-style-position: inside;} */
     .grid-half,
     .grid-full,
     .grid-unit {
-      float: left;
+      float: center;
       /* width:96.969696969697%;
       margin:0 1.515151515152% 1em; */
     }
