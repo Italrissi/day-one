@@ -1,4 +1,4 @@
-  ol {
+  /* ol {
     list-style-type: lower-roman;
   }
 
@@ -16,7 +16,7 @@ li { margin: 10px;}
 
 ul.illuminations { list-style-position: outside;} 
 
-ul.season { list-style-position: inside;}
+ul.season { list-style-position: inside;} */
 
 /*------------------------------------------------------------
 
@@ -32,7 +32,7 @@ ul.season { list-style-position: inside;}
 
 /* Responsive Resets
 -------------------------------------------------------------- */
-@-o-viewport {
+/* @-o-viewport {
     width: device-width;
   }
   @-ms-viewport {
@@ -52,7 +52,7 @@ ul.season { list-style-position: inside;}
   canvas {
     max-width: 100%;
   }
-  
+   */
   /* Grid > 6 Column Mobile First
   -------------------------------------------------------------- */
   .container {
@@ -102,7 +102,7 @@ ul.season { list-style-position: inside;}
   
   @media screen and (min-width: 640px) {
 
-    .quarters   { width: 23%; }
+    .quarters   { width: 21.5%; }
     .grid-1     { width: 13.636363636364%; }
     .grid-2     { width: 30.30303030303%; }
     .grid-3,
@@ -174,7 +174,7 @@ ul.season { list-style-position: inside;}
   -------------------------------------------------------------- */
   figure {
     margin: 0;
-    background: #f8f8f8;
+    /* background: #f8f8f8; */
   }
   
   figcaption {
@@ -186,7 +186,142 @@ ul.season { list-style-position: inside;}
     padding: 0.5em;
     background: #efefef;
   }
+
+  .poem {
+    font-size: 1em;
+    background-color: grey;
+    padding: 5px;
+    box-sizing: border-box;
+    color: #eee;
+  }
   
+  h1 {
+    color: red;
+  }
+
+  footer {
+    color: blue;
+  }
+
+  .cowboy {
+    grid-area: first;
+    height: 100%;
+  }
+
+  body {
+    background-image: url(../images/star.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin:0px;
+    padding:0px;
+    color: #344e5f;
+  }
+
+
+header, section, aside, article, footer, figure {
+    display: block;
+}
+
+header {
+    background-color: lightgoldenrodyellow;
+    color: maroon;
+    padding-top:5px;
+}
+
+header h1 {
+    margin-left:15px;
+    font-size:30px;
+}
+
+header h2 {
+    margin-left:15px;
+    font-size:20px;
+}
+
+nav ul {
+    text-align: center;
+    list-style: none;
+    background-color: #44a5bd;
+    margin-bottom: 15px;
+}
+
+/* nav li {
+    display: inline-block;
+}
+
+nav a {
+    padding:9px;
+    display:block;
+    width:100px;
+    text-decoration: none;
+    background-color: #344e5f;
+    color: white;
+}
+
+nav a:hover {
+    background-color: #344e5f;
+} */
+
+footer {
+    color: white;
+    padding:9px;
+    background-color: rgba(68,165,181,0.8);
+    clear: both;
+}
+
+footer p {
+    font-size:10px;
+}
+
+.container {
+    width:960px;
+    background-color: rgba(255,255,255,0.7);
+    margin:auto;
+}
+
+.content {
+    padding:10px;
+    width:630px;
+    float:left;
+}
+
+.sidebar {
+    float:left;
+    width:300px;
+    padding: 4px;
+    background-color: rgba(255,255,255,0.4);
+    color:#4a5bd5;
+    padding:4px;
+}
+
+.sidebar a {
+    color: #4a5bd5;
+}
+
+figure {
+    margin:0px;
+}
+
+figcaption {
+    font-size:10px;
+}
+
+.image-right {
+    float:right;
+}
+
+.image-left {
+    float:left;
+}
+
+h1,h2,h3 {
+    font-family: "Special Elite", cursive;
+}
+
+p,li {
+  font-family: "Roboto Slab",serif;
+}
   /* Helpers
   -------------------------------------------------------------- */
   .show-grid div[class*='grid-'] {
