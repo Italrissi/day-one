@@ -277,6 +277,10 @@ p,li {
     color: blue;
   }
 
+.ion-icon {
+    font-size: 64px;
+  }
+
   /* Helpers
   -------------------------------------------------------------- */
   /* .show-grid div[class*='grid-'] {
