@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
     <title>Final - Growth Mindset</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
     <link href="../styles/final.css" rel="stylesheet" type="text/css">
@@ -52,10 +54,59 @@
     </header>
             <h1>MAY 30, 2024</h1>
             <h2>By: Joseph Rissi</h2>
-
+            <style>
+                * {
+                  box-sizing: border-box;
+                }
+                
+                /* Create three equal columns that floats next to each other */
+                .column {
+                  float: left;
+                  width: 33.33%;
+                  padding: 10px;
+                  height: 300px; /* Should be removed. Only for demonstration */
+                }
+                
+                /* Clear floats after the columns */
+                .row:after {
+                  content: "";
+                  display: table;
+                  clear: both;
+                }
+                
+                /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+                @media screen and (max-width: 600px) {
+                  .column {
+                    width: 100%;
+                  }
+                }
+                </style>
+                </head>
+                <body>
+                
+                <h2>Responsive Three Column Layout</h2>
+                <p>Resize the browser window to see the responsive effect (the columns will stack on top of each other instead of floating next to each other, when the screen is less than 600px wide).</p>
+                
+                <div class="row">
+                  <div class="column" style="background-color:#aaa;">
+                    <h2>Column 1</h2>
+                    <p>Some text..</p>
+                  </div>
+                  <div class="column" style="background-color:#bbb;">
+                    <h2>Column 2</h2>
+                    <p>Some text..</p>
+                  </div>
+                  <div class="column" style="background-color:#ccc;">
+                    <h2>Column 3</h2>
+                    <p>Some text..</p>
+                  </div>
+                </div>
+                
+                </body>
+                </html>
             <main class="pure-g">
                 <section class="pure-u-1-4">
-                    <img>
+                    <img src="../images/SJIVB-1.png" alt="SJIVB-1" class="logo1">
                     <aside class="pure-u-1-4">
                         <p class="pure-u-1-2"></p>
                         <p class="pure-u-1-2"></p>
@@ -68,27 +119,28 @@
                                  contrasts with a fixed mindset, which assumes that abilities are innate 
                                  and unchangeable.</p>
                 </section>
-                    <section class="pure-u-1-4"></section>
+                    <div class="row">
+                        <div class="column"></div>
+                        <div class="column"></div>
+                        <div class="column"></div>
+                    </div>
+                    <section class="pure-u-1-4">
+                        <img src="../images/SJIVB-1.png" alt="SJIVB-1" class="logo1">
+                        <aside class="pure-u-1-4">
+                            <p class="pure-u-1-2"></p>
+                            <p class="pure-u-1-2"></p>
+                        </aside>
+                            <h3>What is Growth Mindset?</h3>
+                                <p>A growth mindset is a transformative approach to learning and development that 
+                                    empowers individuals to embrace challenges, persist through setbacks, and 
+                                    ultimately achieve higher levels of success. Rooted in the belief that abilities
+                                     and intelligence can be developed through dedication and hard work, it 
+                                     contrasts with a fixed mindset, which assumes that abilities are innate 
+                                     and unchangeable.</p>
+                    </section>
                     <section class="pure-u-1-4"></section>
                     <section class="pure-u-1-4"></section> 
-                           
-                    <main class="pure-g">
-                        <section class="pure-u-1-4">
-                            <img>
-                            <aside class="pure-u-1-4">
-                                <p class="pure-u-1-2"></p>
-                                <p class="pure-u-1-2"></p>
-                            </aside>
-                                <h3>What is Growth Mindset?</h3>
-                                    <p>A growth mindset is a transformative approach to learning and development that 
-                                        empowers individuals to embrace challenges, persist through setbacks, and 
-                                        ultimately achieve higher levels of success. Rooted in the belief that abilities
-                                         and intelligence can be developed through dedication and hard work, it 
-                                         contrasts with a fixed mindset, which assumes that abilities are innate 
-                                         and unchangeable.</p>
-    
-    
-    
+
     </main>
     <footer>
 
