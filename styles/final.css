@@ -20,8 +20,6 @@ main section {
     color:var(--blue);
 }
 
-/*   */
-
 body, header, main, footer, section, article, aside {
     margin:0px;
     padding:0px;
@@ -41,4 +39,17 @@ main aside div {
 .butterfly {
     height: 250px;
     padding-top: 100px;
+}
+
+.pure-u-1-2, pure-u-1-4 {
+    border:2px solid slategray;
+    box-sizing: border-box;
+    padding: 5px;
+    background-color: gainsboro;
+}
+
+.pure-g {
+    text-align: center;
+    border:1px solid white;
+    box-sizing:border-box;
 }
