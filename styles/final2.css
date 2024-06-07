@@ -282,3 +282,9 @@ p,li {
     margin-bottom: 1em;
     text-align: center;
   }
+
+  .globe {
+    display: block;
+    margin: auto;
+    width: 100%;
+  }
