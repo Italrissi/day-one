@@ -1,64 +1,5 @@
-  /* ol {
-    list-style-type: lower-roman;
-  }
-
-  ul { 
-    list-style-image: url("../images/star.jpg");
-} 
-  
-  li { 
-    margin: 10px 0px 0px 0px;
-}
-
-ul { width: 150px;} 
-
-li { margin: 10px;} 
-
-ul.illuminations { list-style-position: outside;} 
-
-ul.season { list-style-position: inside;} */
-
-/*------------------------------------------------------------
-
-	Style.css
-
-	Created by:	Dave Rupert
-	Contact:		http://github.com/davatron5000/foldy960
-
-	Copyright 2012
-	License:	CC No Attribution
-
---------------------------------------------------------------*/
-
-/* Responsive Resets
--------------------------------------------------------------- */
-/* @-o-viewport {
-    width: device-width;
-  }
-  @-ms-viewport {
-    width: device-width;
-  }
-  @viewport {
-    width: device-width;
-  }
-  
-  html {
-    overflow-y: auto;
-  }
-  
-  img,
-  audio,
-  video,
-  canvas {
-    max-width: 100%;
-  }
-   */
-  /* Grid > 6 Column Mobile First
-  -------------------------------------------------------------- */
+/* 
   .container {
-    /*
-      The `max-width` property is the width governor.
-    */
       max-width: 1280px;
       width:92%;
       margin:0px auto;
@@ -68,7 +9,7 @@ ul.season { list-style-position: inside;} */
   .row {
     clear: both;
   }
-  
+   */
   /* @media screen and (min-width: 480px) { */
 
     .container {
@@ -90,7 +31,7 @@ ul.season { list-style-position: inside;} */
       margin:0 1.515151515152% 1em; */
     }
   
-    .gallery .grid-unit,
+    /* .gallery .grid-unit,
     .grid-half {
       width:46.969696969697%;
       margin: 0 1.515151515152% 1em;
@@ -99,7 +40,7 @@ ul.season { list-style-position: inside;} */
     .grid-flow-opposite{
       float:right;
     }
-  
+   */
   @media screen and (min-width: 640px) {
 
     .quarters   { width: 21.5%; }
