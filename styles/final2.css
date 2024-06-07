@@ -286,7 +286,7 @@ p,li {
   * {
     box-sizing: border-box;
 }
-
+/* 
 body {
     margin: 0;
     padding: 0;
@@ -380,4 +380,4 @@ body {
     .navbar-links.active {
         display: flex;
     }
-}
+} */
