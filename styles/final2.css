@@ -169,7 +169,7 @@ section, aside, article, footer, figure {
     padding-top:5px;
 } */
 
-header h1 {
+/* header h1 {
     margin-left:15px;
     font-size:30px;
 }
@@ -177,7 +177,7 @@ header h1 {
 header h2 {
     margin-left:15px;
     font: size 12px;
-}
+} */
 
 /* nav ul {
     text-align: center;
@@ -247,13 +247,13 @@ figcaption {
     font-size:10px;
 } */
 
-/* .image-right {
+.image-right {
     float:right;
 }
 
 .image-left {
     float:left;
-} */
+}
 
 h1,h2,h3 {
     font-family: "Montserrat", sans-serif;
@@ -271,11 +271,11 @@ p,li {
   font-family: "Roboto Slab",serif;
 }
 
-.globe {
+/* .globe {
     display: block;
     margin: auto;
-    width: 100%;
-  }
+
+  } */
 
   /* Helpers
   -------------------------------------------------------------- */
