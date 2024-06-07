@@ -113,9 +113,8 @@
   
   /* Elements
   -------------------------------------------------------------- */
-  figure {
+  /* figure {
     margin: 0;
-    /* background: #f8f8f8; */
   }
   
   figcaption {
@@ -147,9 +146,9 @@
   .cowboy {
     grid-area: first;
     height: 100%;
-  }
+  } */
 
-  body {
+  body, section {
     background-image: url(../images/Y-sincerely-media-vZpHj0FyhnY-unsplash.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
