@@ -248,13 +248,13 @@ figcaption {
     font-size:10px;
 } */
 
-.image-right {
+/* .image-right {
     float:right;
 }
 
 .image-left {
     float:left;
-}
+} */
 
 h1,h2,h3 {
     font-family: "Montserrat", sans-serif;
@@ -266,13 +266,21 @@ h1 {
 
 h2, h3 {
     color: #ff668b;
+
 }
 p,li {
   font-family: "Roboto Slab",serif;
 }
+
+.globe {
+    display: block;
+    margin: auto;
+    width: 100%;
+  }
+
   /* Helpers
   -------------------------------------------------------------- */
-  .show-grid div[class*='grid-'] {
+  /* .show-grid div[class*='grid-'] {
     background-color: #eee;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -281,10 +289,4 @@ p,li {
     padding: 0.5em 1em;
     margin-bottom: 1em;
     text-align: center;
-  }
-
-  .globe {
-    display: block;
-    margin: auto;
-    width: 100%;
-  }
+  } */
