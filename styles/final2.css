@@ -273,6 +273,10 @@ p,li {
   font-family: "Roboto Slab",serif;
 }
 
+ion-icon {
+    color: blue;
+  }
+
   /* Helpers
   -------------------------------------------------------------- */
   /* .show-grid div[class*='grid-'] {
