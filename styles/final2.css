@@ -209,7 +209,7 @@ ul.season { list-style-position: inside;} */
   }
 
   body {
-    background-image: url(../images/star.jpg);
+    background-image: url(../images/Y-sincerely-media-vZpHj0FyhnY-unsplash.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -219,15 +219,15 @@ ul.season { list-style-position: inside;} */
   }
 
 
-header, section, aside, article, footer, figure {
+section, aside, article, footer, figure {
     display: block;
 }
 
-header {
+/* header {
     background-color: lightgoldenrodyellow;
     color: maroon;
     padding-top:5px;
-}
+} */
 
 header h1 {
     margin-left:15px;
@@ -264,9 +264,9 @@ nav a:hover {
 } */
 
 footer {
-    color: white;
+    color: #ff668b;
     padding:9px;
-    background-color: rgba(68,165,181,0.8);
+    background-color: #0f053c;
     clear: both;
 }
 
@@ -316,9 +316,16 @@ figcaption {
 }
 
 h1,h2,h3 {
-    font-family: "Special Elite", cursive;
+    font-family: "Montserrat", sans-serif;
 }
 
+h1 {
+    color: black;
+}
+
+h2, h3 {
+    color: #ff668b;
+}
 p,li {
   font-family: "Roboto Slab",serif;
 }
