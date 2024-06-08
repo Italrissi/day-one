@@ -27,8 +27,8 @@
     .grid-full,
     .grid-unit {
       float: center;
-      /* width:96.969696969697%;
-      margin:0 1.515151515152% 1em; */
+      width:96.969696969697%;
+      margin:0 1.515151515152% 1em;
     }
   
     /* .gallery .grid-unit,
@@ -41,6 +41,7 @@
       float:right;
     }
    */
+
   @media screen and (min-width: 1440px) {
 
     .quarters   { width: 21.5%; }
@@ -66,6 +67,10 @@
     }
   }
   
+  .grid-full cf {
+    text-align: center;
+  }
+
   @media screen and (max-width: 1440px) {
     .column {
       -ms-flex: 50%;
@@ -99,7 +104,7 @@
   
   /* Typography
   -------------------------------------------------------------- */
-  .heading {
+  /* .heading {
     font-size: 3em;
     margin: 0;
   }
@@ -117,7 +122,7 @@
   a:hover {
     color: #003399;
   }
-  
+   */
   /* Elements
   -------------------------------------------------------------- */
   /* figure {
