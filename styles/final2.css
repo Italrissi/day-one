@@ -267,8 +267,12 @@ h1 {
 
 h2, h3 {
     color: #ff668b;
-
 }
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+
 p,li {
   font-family: "Roboto Slab",serif;
 }
