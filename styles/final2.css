@@ -41,7 +41,7 @@
       float:right;
     }
    */
-  @media screen and (min-width: 640px) {
+  @media screen and (min-width: 1040px) {
 
     .quarters   { width: 21.5%; }
     .grid-1     { width: 13.636363636364%; }
@@ -64,9 +64,16 @@
     .content-pad-left {
       padding-left: 4%;
     }
-  
   }
   
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
   /* Micro Clearfix - http://nicolasgallagher.com/micro-clearfix-hack/
   For best results, use your favorite clearfix here.
   -------------------------------------------------------------- */
