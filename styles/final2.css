@@ -265,7 +265,6 @@ h2 {
   font-family: "Inspiration", cursive;
 }
 
-
 h1 {
     color: black;
 }
@@ -275,7 +274,7 @@ h2, h3 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  text-align: center;
+  text-align: justify;
 }
 
 p,li {
