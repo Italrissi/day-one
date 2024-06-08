@@ -257,9 +257,14 @@ figcaption {
     float:left;
 }
 
-h1,h2,h3 {
+h1, h3 {
     font-family: "Montserrat", sans-serif;
 }
+
+h2 {
+  font-family: "Inspiration", cursive;
+}
+
 
 h1 {
     color: black;
