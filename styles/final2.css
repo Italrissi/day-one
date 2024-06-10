@@ -311,7 +311,7 @@ p,li {
 
   /* Helpers
   -------------------------------------------------------------- */
-  /* .show-grid div[class*='grid-'] {
+  .show-grid div[class*='grid-'] {
     background-color: #eee;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -320,4 +320,4 @@ p,li {
     padding: 0.5em 1em;
     margin-bottom: 1em;
     text-align: center;
-  } */
+  }
