@@ -34,12 +34,12 @@ section:hover {
     background-color: black;
 }
 
-nav a {
-    flex-grow: 1;
+nav a, .boxing {
+    /* flex-grow: 1; */
     text-align: center;
     color: blueviolet;
     text-decoration: none;
-    border: white 2px solid;
+    /* border: white 2px solid; */
     padding:5px;
 }
 
