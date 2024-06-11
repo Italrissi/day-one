@@ -311,6 +311,12 @@ p, li {
     font-size: 64px;
   }
 
+.final-content  {
+    background-color:#cccccc;
+    width:700px;
+    padding:10px;
+    margin:auto;
+}
   /* Helpers
   -------------------------------------------------------------- */
   /* .show-grid div[class*='grid-'] {
