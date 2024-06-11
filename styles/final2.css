@@ -312,10 +312,11 @@ p, li {
   }
 
 .final-content  {
-    background-color:#cccccc;
-    width:700px;
-    padding:10px;
-    margin: 10px;
+  background-image: url(../images/Y-sincerely-media-vZpHj0FyhnY-unsplash.jpg);  
+  background-color: yellowgreen;
+    width:auto;
+    padding: 5px;
+    margin: 5px;
 }
   /* Helpers
   -------------------------------------------------------------- */
