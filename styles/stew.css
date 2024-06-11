@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body {
-    background-image: url(../images/backgroundSTEW.jpg);
+    background-image: url(../images/dissolve\ stew\ background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -15,7 +15,7 @@ body {
     background-color:#cccccc;
     width:700px;
     padding:10px;
-    margin:auto;
+    margin: 10px;
 }
 
 h1, h2, h3, h4 {
