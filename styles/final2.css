@@ -26,7 +26,7 @@
     .grid-half,
     .grid-full,
     .grid-unit {
-      float: center;
+      float: left;
       width:96.969696969697%;
       margin:0 1.515151515152% 1em;
     }
@@ -68,7 +68,7 @@
   }
   
   .grid-full cf {
-    text-align: center;
+    text-align: center
   }
 
   @media screen and (max-width: 1440px) {
@@ -82,9 +82,9 @@
   /* Micro Clearfix - http://nicolasgallagher.com/micro-clearfix-hack/
   For best results, use your favorite clearfix here.
   -------------------------------------------------------------- */
-  .cf:before, .cf:after { content:""; display:table; }
+  /* .cf:before, .cf:after { content:""; display:table; }
   .cf:after { clear:both; }
-  .cf { zoom:1; } /* For IE 6/7 (trigger hasLayout) */
+  .cf { zoom:1; } */
   
   /* Layout
   -------------------------------------------------------------- */
@@ -313,7 +313,7 @@ p,li {
 
   /* Helpers
   -------------------------------------------------------------- */
-  .show-grid div[class*='grid-'] {
+  /* .show-grid div[class*='grid-'] {
     background-color: #eee;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -322,4 +322,4 @@ p,li {
     padding: 0.5em 1em;
     margin-bottom: 1em;
     text-align: center;
-  }
+  } */
