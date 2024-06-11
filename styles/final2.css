@@ -67,8 +67,8 @@
     }
   }
   
-  .grid-full cf {
-    text-align: center
+  .grid-full {
+    text-align: center;
   }
 
   @media screen and (max-width: 2000px) {
@@ -82,9 +82,9 @@
   /* Micro Clearfix - http://nicolasgallagher.com/micro-clearfix-hack/
   For best results, use your favorite clearfix here.
   -------------------------------------------------------------- */
-  /* .cf:before, .cf:after { content:""; display:table; }
+  .cf:before, .cf:after { content:""; display:table; }
   .cf:after { clear:both; }
-  .cf { zoom:1; } */
+  .cf { zoom:1; }
   
   /* Layout
   -------------------------------------------------------------- */
