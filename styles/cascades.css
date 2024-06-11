@@ -66,11 +66,11 @@ footer p {
     font-size:10px;
 }
 
-.container {
+/* .container {
     width:960px;
     background-color: rgba(255,255,255,0.7);
     margin:auto;
-}
+} */
 
 .content {
     padding:10px;
@@ -113,4 +113,8 @@ h1,h2,h3 {
 
 p,li {
   font-family: "Roboto Slab",serif;
+}
+
+.cascades-content {
+    width: auto;
 }
