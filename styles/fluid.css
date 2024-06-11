@@ -17,6 +17,18 @@ body, main, article, section, header, footer {
     box-sizing: border-box;
 }
 
+h1 {
+    color: aqua;
+}
+
+/* h3 {
+    color: blanchedalmond;
+} */
+
+p {
+    color: antiquewhite;
+}
+
 .pure-u-1-2 {
     width: 100%;
 }
@@ -28,6 +40,10 @@ body, main, article, section, header, footer {
 .pure-u-1-5 {
     background-position: center;
     width: 50%;
+}
+
+.responsive {
+     flex-grow: 1;
 }
 
 section:hover {
@@ -66,7 +82,7 @@ section {
 .em {
     background-image: url(../images/waterfall1.jpg);
     border: solid darkorange 1em;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .em p {
@@ -80,6 +96,7 @@ section {
 
 .rem p {
     font-size: none;
+    width: 75%;
 }
 
 .percent {
@@ -88,7 +105,7 @@ section {
 
 .percent p {
     font-size: none;
-    /* width: 75%; */
+    width: 75%;
 }
 
 .boxing {
@@ -104,7 +121,8 @@ section {
 .vw {
     background-image: url(../images/waterfall4.jpg);
     border: dashed 3vw;
-    font-size: 1vw;
+    font-size: none;
+    color: yellowgreen;
     box-sizing: border-box;
 }
 
