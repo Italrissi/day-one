@@ -2,8 +2,14 @@
 /* CSS Document */
 
 body {
-    background-color: #3f8acc;
-}
+    background-image: url(../images/backgroundSTEW.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin:0px;
+    padding:0px;
+    color: #344e5f;
+  }
 
 .stew-content {
     background-color:#cccccc;
