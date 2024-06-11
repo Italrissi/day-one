@@ -33,7 +33,7 @@ body.fluid main, .pure-u-1-3, .pure-u-2-3 {
 
 /* stew recipe and history mobile styles */
 
-.stew-content, .final-content, .stew-content img, body.history img {
+.stew-content, .final-content, .cascades-content, .stew-content img, body.history img {
     width: 95%;
 }
 
