@@ -273,7 +273,7 @@ h1, h3 {
     font-family: "Montserrat", sans-serif;
 }
 
-h2 {
+p {
   font-family: "Inspiration", cursive;
 }
 
@@ -294,7 +294,9 @@ h1, h2 {
 }
 
 p {
+  font-size: x-large;
   text-align: justify;
+  color: #ff668b;
 }
 
 p,li {
