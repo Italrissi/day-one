@@ -43,3 +43,9 @@ nav ul {
     padding: 1.1em;
     margin-top: .7em;
 }
+
+.responsive {
+    max-inline-size: 100%;
+    max-width: 100%;
+    height: auto;
+    }

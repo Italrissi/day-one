@@ -43,15 +43,17 @@ p {
 }
 
 .responsive {
-     flex-grow: 1;
-}
+    max-inline-size: 100%;
+    max-width: 100%;
+    height: auto;
+    }
 
 section:hover {
     background-color: black;
 }
 
 nav a, .boxing {
-    /* flex-grow: 1; */
+    flex-grow: 1;
     text-align: center;
     color: blueviolet;
     text-decoration: none;

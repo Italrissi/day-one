@@ -114,3 +114,9 @@ h1, h2, h3 {
     padding-left: 1.4em;
     font-family: "Cabin Sketch", sans-serif;
 }
+
+.responsive {
+    max-inline-size: 100%;
+    max-width: 100%;
+    height: auto;
+    }

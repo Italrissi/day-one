@@ -36,3 +36,9 @@ body.fluid main, .pure-u-1-3, .pure-u-2-3 {
 .stew-content, .grid-based, .stew-content img, body.history img {
     width: 95%;
 }
+
+.responsive {
+    max-inline-size: 100%;
+    max-width: 100%;
+    height: auto;
+    }
