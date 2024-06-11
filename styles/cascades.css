@@ -69,7 +69,7 @@ footer p {
 .container {
     width:960px;
     background-color: rgba(255,255,255,0.7);
-    margin:auto;
+    /* margin:auto; */
 }
 
 .content {
