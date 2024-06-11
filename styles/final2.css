@@ -160,14 +160,14 @@
     height: 100%;
   } */
 
-  body, section {
-    background-image: url(../images/Y-sincerely-media-vZpHj0FyhnY-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    margin:0px;
-    padding:0px;
-    color: #344e5f;
+body, section {
+  background-image: url(../images/Y-sincerely-media-vZpHj0FyhnY-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin:0px;
+  padding:0px;
+  color: #344e5f;
   }
 
 
@@ -315,7 +315,7 @@ p, li {
     background-color:#cccccc;
     width:700px;
     padding:10px;
-    margin:auto;
+    margin: 10px;
 }
   /* Helpers
   -------------------------------------------------------------- */
